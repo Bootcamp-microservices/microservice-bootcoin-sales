@@ -1,0 +1,12 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: microservice-bootcoin-sales
+  cloud:
+    config:
+      enabled: true
+      label: main
+      uri: http://localhost:7000
+
